@@ -1,9 +1,6 @@
 package MappingPkg;
 
-
 import java.util.List;
-
-	
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
@@ -41,5 +38,4 @@ public class Person {
 	public void setPersonName(String personName) {
 		this.personName = personName;
 	}
-
 }
